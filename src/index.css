@@ -1,0 +1,28 @@
+/*** SWIPE LIST OVERRIDES **/
+.swipe-action__leading {
+  background-color: #3b82f6;
+  color: white;
+  margin-bottom: 16px;
+}
+
+.swipe-action__trailing {
+  background-color: red;
+  margin-bottom: 16px;
+  color: white;
+}
+
+.swipeable-list .swipe-action {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  text-align: right;
+}
+.swipeable-list-item__content {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
